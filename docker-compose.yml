@@ -67,3 +67,6 @@ volumes:
 networks:
   n8n-network:
     driver: bridge
+
+  toolbox:
+    external: true
